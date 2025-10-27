@@ -2,6 +2,7 @@
   "name": "kanban-assignment-ambar",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,21 +11,22 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "clsx": "^1.2.1",
-    "date-fns": "^2.30.0"
+    "date-fns": "^2.30.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "typescript": "^5.0.4",
-    "vite": "^5.0.0",
-    "tailwindcss": "^3.4.13",
-    "postcss": "^8.4.21",
-    "autoprefixer": "^10.4.14",
-    "@storybook/react": "^7.0.0",
     "@storybook/addon-essentials": "^7.0.0",
+    "@storybook/react": "^7.0.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
-    "esbuild": "^0.17.19"
+    "@vitejs/plugin-react": "^5.1.0",
+    "autoprefixer": "^10.4.14",
+    "esbuild": "^0.17.19",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.0.4",
+    "vite": "^5.0.0"
   }
 }
